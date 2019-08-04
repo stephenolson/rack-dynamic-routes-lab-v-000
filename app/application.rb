@@ -9,6 +9,7 @@ class Application
           resp.write item.price
     else 
       resp.write
+      resp.status = 
     end
  
     resp.finish
