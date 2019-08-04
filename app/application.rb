@@ -9,7 +9,7 @@ class Application
           resp.write item.price
     else 
       resp.write
-      resp.status = 
+      resp.status = 400
     end
  
     resp.finish
